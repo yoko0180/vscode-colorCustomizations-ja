@@ -1,10 +1,23 @@
 # vscode-colorCustomizations-ja
 
-参照
+#### 参照
 https://code.visualstudio.com/api/references/theme-color
 
-目次
-[テキストの色](#テキストの色)
+# テーマカラー
+
+workbench.colorCustomizationsユーザー設定を使用して、アクティブなVisual Studio Codeカラーテーマをカスタマイズできます。
+
+```json
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#00AA00"
+  }
+}
+```
+
+## 目次
+
+- [テキストの色](#テキストの色)
 
 
 # コントラスト色
