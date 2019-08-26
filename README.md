@@ -293,12 +293,16 @@ editorCodeLens.foreground：エディターCodeLensの前景色。
 
 # ブラケット色
 
+```
 editorBracketMatch.background：一致する括弧の背景色。
 editorBracketMatch.border：一致するブラケットボックスの色。
+```
+
 概要ルーラー：
 
 このルーラーは、エディターの右端のスクロールバーの下にあり、エディターの装飾の概要を示します。
 
+```
 editorOverviewRuler.border：概要ルーラーの境界線の色。
 editorOverviewRuler.findMatchForeground：検索一致の概要ルーラーマーカーの色。下にある装飾を隠さないように、色は不透明であってはなりません。
 editorOverviewRuler.rangeHighlightForeground：クイックオープン、ファイル内のシンボル、検索機能など、ハイライトされた範囲の概要ルーラーマーカーの色。下にある装飾を隠さないように、色は不透明であってはなりません。
@@ -312,9 +316,11 @@ editorOverviewRuler.errorForeground：エラーの概要ルーラーマーカー
 editorOverviewRuler.warningForeground：警告の概要ルーラーマーカーの色。
 editorOverviewRuler.infoForeground：情報の概要ルーラーマーカーの色。
 editorOverviewRuler.bracketMatchForeground：一致するブラケットの概要ルーラーマーカーの色。
+```
 
 # エラーと警告：
 
+```
 editorError.foreground：エディター内のエラー波線の前景色。
 editorError.border：エディターのエラーボックスの境界線の色。
 editorWarning.foreground：エディターの警告波線の前景色。
@@ -323,9 +329,11 @@ editorInfo.foreground：エディターでの情報の波線の前景色。
 editorInfo.border：エディターの情報ボックスの境界線の色。
 editorHint.foreground：エディターのヒントの前景色。
 editorHint.border：エディターのヒントボックスの境界線の色。
+```
 
 # 未使用のソースコード：
 
+```
 editorUnnecessaryCode.border：エディターの不要な（未使用の）ソースコードの境界線の色。
 editorUnnecessaryCode.opacity：エディター内の不必要な（未使用の）ソースコードの不透明度。たとえば、"#000000c0"75％の不透明度でコードをレンダリングします。ハイコントラストのテーマの場合、"editorUnnecessaryCode.border"テーマの色を使用して、不要なコードをフェードアウトする代わりに下線を引きます。
 ガターには、グリフの余白と行番号が含まれます。
@@ -334,19 +342,23 @@ editorGutter.background：エディターのガターの背景色。ガターに
 editorGutter.modifiedBackground：変更された行のエディターのガターの背景色。
 editorGutter.addedBackground：追加される行のエディターのガターの背景色。
 editorGutter.deletedBackground：削除された行のエディターのガターの背景色。
+```
 
 # 差分エディターの色
 挿入および削除されたテキストの色付けには、両方ではなく背景色または境界色のいずれかを使用します。
 
+```
 diffEditor.insertedTextBackground：挿入されたテキストの背景色。下にある装飾を隠さないように、色は不透明であってはなりません。
 diffEditor.insertedTextBorder：挿入されたテキストのアウトラインカラー。
 diffEditor.removedTextBackground：削除されたテキストの背景色。下にある装飾を隠さないように、色は不透明であってはなりません。
 diffEditor.removedTextBorder：削除されたテキストのアウトラインカラー。
 diffEditor.border：2つのテキストエディター間の境界線の色。
+```
 
 # エディターウィジェットの色
 Editorウィジェットは、エディターのコンテンツの前に表示されます。例には、検索/置換ダイアログ、提案ウィジェット、およびエディターホバーがあります。
 
+```
 editorWidget.background：検索/置換などのエディターウィジェットの背景色。
 editorWidget.border：ウィジェットに境界が含まれていないか、独自の境界色を定義していない限り、エディターウィジェットの境界色。
 editorWidget.resizeBorder：エディターウィジェットのサイズ変更バーの境界線の色。色は、ウィジェットがサイズ変更境界線を持つことを選択し、色がウィジェットによってオーバーライドされない場合にのみ使用されます。
@@ -357,23 +369,29 @@ editorSuggestWidget.highlightForeground：候補ウィジェットの一致の�
 editorSuggestWidget.selectedBackground：提案ウィジェットで選択したエントリの背景色。
 editorHoverWidget.background：エディターのホバーの背景色。
 editorHoverWidget.border：エディターのホバーの境界線の色。
+```
 
 デバッグ例外ウィジェットは、デバッグが例外で停止したときにエディターに表示されるピークビューです。
 
+```
 debugExceptionWidget.background：例外ウィジェットの背景色。
 debugExceptionWidget.border：例外ウィジェットの境界線の色。
+```
 エディターのエラーと警告にナビゲートすると、エディターマーカービューに表示されます（[ 次のエラーまたは警告]コマンドに移動）。
 
+```
 editorMarkerNavigation.background：エディターマーカーナビゲーションウィジェットの背景。
 editorMarkerNavigationError.background：エディターマーカーナビゲーションウィジェットのエラーの色。
 editorMarkerNavigationWarning.background：エディターマーカーナビゲーションウィジェットの警告色。
 editorMarkerNavigationInfo.background：エディターマーカーナビゲーションウィジェットの情報の色。
+```
 
 # ピークビューの色
 ピークビューは、参照と宣言をエディター内のビューとして表示するために使用されます。
 
 ピークビュー
 
+```
 peekView.border：ピークビューの境界線と矢印の色。
 peekViewEditor.background：ピークビューエディターの背景色。
 peekViewEditorGutter.background：ピークビューエディタのガターの背景色。
@@ -388,12 +406,14 @@ peekViewResult.selectionForeground：プレビュービューの結果リスト�
 peekViewTitle.background：ピークビューのタイトル領域の背景色。
 peekViewTitleDescription.foreground：ピークビューのタイトル情報の色。
 peekViewTitleLabel.foreground：ピークビュータイトルの色。
+```
 
 # 競合のマージ
 エディターに特別なdiff範囲が含まれる場合、マージ競合の装飾が表示されます。
 
 範囲をマージ
 
+```
 merge.currentHeaderBackground：インラインマージの競合における現在のヘッダーの背景。下にある装飾を隠さないように、色は不透明であってはなりません。
 merge.currentContentBackground：インラインマージの競合における現在のコンテンツの背景。下にある装飾を隠さないように、色は不透明であってはなりません。
 merge.incomingHeaderBackground：インラインマージの競合における着信ヘッダーの背景。下にある装飾を隠さないように、色は不透明であってはなりません。
@@ -404,20 +424,24 @@ merge.commonHeaderBackground：インラインmerge-conflictsの共通の祖先�
 editorOverviewRuler.currentContentForeground：インラインマージ競合の現在の概要ルーラー前景。
 editorOverviewRuler.incomingContentForeground：インラインマージ競合の着信概要ルーラー前景。
 editorOverviewRuler.commonContentForeground：インラインマージ競合の共通の祖先概要ルーラーの前景。
+```
 
 # パネル色
 パネルはエディター領域の下に表示され、出力や統合ターミナルなどのビューが含まれています。
 
+```
 panel.background：パネルの背景色。
 panel.border：パネルをエディターから分離するためのパネルの境界線の色。
 panel.dropBackground：パネルタイトルアイテムのフィードバックカラーをドラッグアンドドロップします。色は透明である必要がありますので、パネルのエントリはまだ透けて見えます。
 panelTitle.activeBorder：アクティブなパネルタイトルの境界線の色。
 panelTitle.activeForeground：アクティブなパネルのタイトル色。
 panelTitle.inactiveForeground：非アクティブなパネルのタイトル色。
+```
 
 # ステータスバーの色
 ステータスバーは、ワークベンチの下部に表示されます。
 
+```
 statusBar.background：標準ステータスバーの背景色。
 statusBar.foreground：ステータスバーの前景色。
 statusBar.border：ステータスバーとエディターを分離するステータスバーの境界線の色。
@@ -432,6 +456,8 @@ statusBarItem.hoverBackground：ホバリング時のステータスバー項目
 statusBarItem.prominentForeground：ステータスバーの目立つアイテムの前景色。
 statusBarItem.prominentBackground：ステータスバーの目立つアイテムの背景色。
 statusBarItem.prominentHoverBackground：ホバリング時のステータスバーの目立つアイテムの背景色。
+```
+
 重要なことを示すために、他のステータスバーのエントリよりも目立つアイテムが目立ちます。1つの例は、Toggle Tab Key Moves Focusコマンド変更モードインジケーターです。
 
 # タイトルバーの色
