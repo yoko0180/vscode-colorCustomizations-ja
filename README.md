@@ -1,5 +1,9 @@
 # vscode-colorCustomizations-ja
 
+参照
+https://code.visualstudio.com/api/references/theme-color
+
+目次
 [テキストの色](#テキストの色)
 
 
