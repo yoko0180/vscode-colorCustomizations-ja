@@ -25,6 +25,7 @@ errorForeground：エラーメッセージの全体的な前景色（この色�
 # テキストの色
 ウェルカムページなどのテキストドキュメント内の色。
 
+```javascript
 textBlockQuote.background：テキスト内のブロック引用の背景色。
 textBlockQuote.border：テキスト内のブロック引用の境界線の色。
 textCodeBlock.background：テキストのコードブロックの背景色。
@@ -32,31 +33,31 @@ textLink.activeForeground：マウスのホバーをクリックしたときの�
 textLink.foreground：テキスト内のリンクの前景色。
 textPreformat.foreground：事前にフォーマットされたテキストセグメントの前景色。
 textSeparator.foreground：テキスト区切りの色。
+```
 
-ボタンコントロール
+# ボタンコントロール
 新しいウィンドウのエクスプローラーの[フォルダーを開く ]ボタンなどのボタンウィジェットの色のセット。
 
-ボタン制御
-
+```javascript
 button.background：ボタンの背景色。
 button.foreground：ボタンの前景色。
 button.hoverBackground：ホバリング時のボタンの背景色。
+```
 
-ドロップダウン制御
+# ドロップダウン制御
 統合ターミナルや出力パネルなど、すべてのドロップダウンウィジェットの色のセット。現在、ドロップダウンコントロールはmacOSでは使用されていないことに注意してください。
 
-ドロップダウンコントロール
-
+```
 dropdown.background：ドロップダウンの背景。
 dropdown.listBackground：ドロップダウンリストの背景。
 dropdown.border：ドロップダウンボーダー。
 dropdown.foreground：ドロップダウンの前景。
+```
 
-入力制御
+# 入力制御
 [検索]ビューや[検索/置換]ダイアログなどの入力コントロールの色。
 
-入力制御
-
+```
 input.background：入力ボックスの背景。
 input.border：入力ボックスの境界線。
 input.foreground：入力ボックスの前景。
@@ -72,25 +73,35 @@ inputValidation.infoBorder：情報の重大度の入力検証境界色。
 inputValidation.warningBackground：情報警告用の入力検証背景色。
 inputValidation.warningForeground：警告の重大​​度の入力検証前景色。
 inputValidation.warningBorder：警告の重大​​度の入力検証境界線の色。
+```
 
-スクロールバーコントロール
+# スクロールバーコントロール
+
+```
 scrollbar.shadow：ビューがスクロールされていることを示すスクロールバースライダーの影。
 scrollbarSlider.activeBackground：クリックしたときのスクロールバースライダーの背景色。
 scrollbarSlider.background：スクロールバースライダーの背景色。
 scrollbarSlider.hoverBackground：ホバー時のスクロールバースライダーの背景色。
+```
 
-バッジ
+# バッジ
 バッジは、検索結果の数などの小さな情報ラベルです。
 
+```
 badge.foreground：バッジの前景色。
 badge.background：バッジの背景色。
+```
 
-プログレスバー
+# プログレスバー
+
+```
 progressBar.background：長時間実行される操作に対して表示される進行状況バーの背景色。
+```
 
-リストとツリー
+# リストとツリー
 ファイルエクスプローラーのようなリストとツリーの色。アクティブリスト/ツリーにはキーボードフォーカスがあり、非アクティブリストにはありません。
 
+```
 list.activeSelectionBackground：リスト/ツリーがアクティブなときの選択されたアイテムのリスト/ツリーの背景色。
 list.activeSelectionForeground：リスト/ツリーがアクティブなときの選択されたアイテムのリスト/ツリーの前景色。
 list.dropBackground：マウスを使用してアイテムを移動するときのリスト/ツリーの背景のドラッグアンドドロップ。
@@ -109,10 +120,12 @@ listFilterWidget.background：リスト/ツリー内を検索するときに、�
 listFilterWidget.outline：リスト/ツリー内を検索するときのリスト/ツリーフィルターウィジェットの入力テキストのアウトラインカラー。
 listFilterWidget.noMatchesOutline：リスト/ツリー内を検索するときに、入力したテキストに一致するものが見つからない場合のリスト/ツリーフィルターウィジェットのアウトラインカラー。
 tree.indentGuidesStroke：ツリーウィジェットのインデントガイドのストロークの色。
+```
 
-アクティビティバー
+# アクティビティバー
 アクティビティバーはワークベンチの左端または右端に表示され、サイドバーのビューをすばやく切り替えることができます。
 
+```
 activityBar.background：アクティビティバーの背景色。
 activityBar.dropBackground：アクティビティバーのアイテムのフィードバックカラーをドラッグアンドドロップします。
 activityBar.foreground：アクティビティバーの前景色（たとえば、アイコンに使用）。
@@ -120,10 +133,12 @@ activityBar.inactiveForeground：アクティブでないときのアクティ�
 activityBar.border：アクティビティバーの境界線の色とサイドバー。
 activityBarBadge.background：アクティビティ通知バッジの背景色。
 activityBarBadge.foreground：アクティビティ通知バッジの前景色。
+```
 
-サイドバー
+# サイドバー
 サイドバーには、エクスプローラーや検索などのビューが含まれています。
 
+```
 sideBar.background：サイドバーの背景色。
 sideBar.foreground：サイドバーの前景色。サイドバーは、エクスプローラーや検索などのビューのコンテナーです。
 sideBar.border：エディターを分離するサイドのサイドバーの境界線の色。
@@ -132,15 +147,19 @@ sideBarTitle.foreground：サイドバーのタイトルの前景色。
 sideBarSectionHeader.background：サイドバーセクションヘッダーの背景色。
 sideBarSectionHeader.foreground：サイドバーセクションヘッダーの前景色。
 sideBarSectionHeader.border：サイドバーセクションヘッダーの境界線の色。
+```
 
-ミニマップ
+# ミニマップ
 ミニマップには、現在のファイルの縮小バージョンが表示されます。
 
+```
 minimap.findMatchHighlight：ファイル内の検索からの一致のハイライト色
+```
 
 エディターグループとタブ
 エディタグループは、エディタのコンテナです。多くの編集者グループが存在する可能性があります。タブはエディターのコンテナーです。1つのエディターグループで複数のタブを開くことができます。
 
+```
 editorGroup.border：複数のエディターグループを互いに分離する色。
 editorGroup.dropBackground：エディターをドラッグするときの背景色。
 editorGroupHeader.noTabsBackground：タブが無効（設定"workbench.editor.showTabs": false）の場合のエディターグループタイトルヘッダーの背景色。
@@ -169,65 +188,88 @@ tab.inactiveModifiedBorder：アクティブなグループ内の変更された
 tab.unfocusedActiveModifiedBorder：フォーカスされていないグループ内の変更された（ダーティな）アクティブなタブの上部の境界線。
 tab.unfocusedInactiveModifiedBorder：フォーカスのないグループ内の変更された（ダーティな）非アクティブなタブの上部の境界線。
 editorPane.background：中央のエディターレイアウトの左右に表示されるエディターペインの背景色。
+```
 
-エディターの色
+# エディターの色
 最も顕著なエディターの色は、構文の強調表示に使用されるトークンの色であり、インストールされている言語の文法に基づいています。これらの色は色テーマで定義されていますが、editor.tokenColorCustomizations設定でカスタマイズすることもできます。参照してくださいカラーテーマをカスタマイズカラーテーマと利用可能なトークンタイプの更新の詳細については。
 
 他のすべてのエディターの色は次のとおりです。
 
+```
 editor.background：エディターの背景色。
 editor.foreground：エディターのデフォルトの前景色。
 editorLineNumber.foreground：エディターの行番号の色。
 editorLineNumber.activeForeground：アクティブなエディターの行番号の色。
 editorCursor.background：エディターカーソルの背景色。ブロックカーソルが重なる文字の色をカスタマイズできます。
 editorCursor.foreground：エディターカーソルの色。
+```
+
 1つ以上の文字を選択すると、選択色が表示されます。選択に加えて、同じコンテンツを持つすべての地域も強調表示されます。
 
 選択ハイライト
 
+```
 editor.selectionBackground：エディター選択の色。
 editor.selectionForeground：選択したテキストの色をハイコントラストにします。
 editor.inactiveSelectionBackground：非アクティブなエディターでの選択の色。下にある装飾を隠さないように、色は不透明であってはなりません。
 editor.selectionHighlightBackground：選択範囲と同じ内容の地域の色。下にある装飾を隠さないように、色は不透明であってはなりません。
 editor.selectionHighlightBorder：選択範囲と同じ内容の地域の境界線の色。
+```
+
 カーソルが記号または単語内にある場合、単語のハイライト色が表示されます。ファイルタイプで利用可能な言語サポートに応じて、一致するすべての参照と宣言が強調表示され、読み取りアクセスと書き込みアクセスが異なる色になります。ドキュメントシンボル言語のサポートが利用できない場合、これは単語の強調表示にフォールバックします。
 
-発生
+# 発生
 
+```
 editor.wordHighlightBackground：読み取りアクセス中、たとえば変数の読み取り中のシンボルの背景色。下にある装飾を隠さないように、色は不透明であってはなりません。
 editor.wordHighlightBorder：読み取りアクセス中、たとえば変数の読み取り中のシンボルの境界線の色。
 editor.wordHighlightStrongBackground：変数への書き込み時など、書き込みアクセス中のシンボルの背景色。下にある装飾を隠さないように、色は不透明であってはなりません。
 editor.wordHighlightStrongBorder：書き込みアクセス中、たとえば変数への書き込み中のシンボルの境界線の色。
+```
+
 検索色は、[検索/置換]ダイアログの現在の検索文字列によって異なります。
 
-一致を見つける
+# 一致を見つける
 
+```
 editor.findMatchBackground：現在の検索一致の色。
 editor.findMatchHighlightBackground：一致する他の検索の色。下にある装飾を隠さないように、色は不透明であってはなりません。
 editor.findRangeHighlightBackground：検索を制限する範囲に色を付けます（検索ウィジェットで[選択範囲を検索]を有効にします）。下にある装飾を隠さないように、色は不透明であってはなりません。
 editor.findMatchBorder：現在の検索一致の境界色。
 editor.findMatchHighlightBorder：一致する他の検索の境界線の色。
 editor.findRangeHighlightBorder：境界線は、検索を制限する範囲を色付けします（検索ウィジェットで[選択範囲を検索]を有効にします）。
+```
+
 ホバーが強調表示されているシンボルの後ろにホバーハイライトが表示されます。
 
-ホバーハイライト
+# ホバーハイライト
 
+```
 editor.hoverHighlightBackground：ホバーが表示される単語の下の強調表示。下にある装飾を隠さないように、色は不透明であってはなりません。
+```
+
 現在の行は通常、背景の強調表示または境界線（両方ではない）として表示されます。
 
-行のハイライト
+# 行のハイライト
 
+```
 editor.lineHighlightBackground：カーソル位置の行のハイライトの背景色。
 editor.lineHighlightBorder：カーソル位置の線の周りの境界線の背景色。
+```
+
 リンクをクリックすると、リンクの色が表示されます。
 
 リンク
 
+```
 editorLink.activeForeground：アクティブなリンクの色。
+```
+
 検索結果を選択すると、範囲のハイライトが表示されます。
 
 範囲ハイライト
 
+```
 editor.rangeHighlightBackground：ハイライトされた範囲の背景色。クイックオープン、ファイル内のシンボル、検索機能で使用されます。下にある装飾を隠さないように、色は不透明であってはなりません。
 editor.rangeHighlightBorder：ハイライトされた範囲の周囲の境界線の背景色。
 エディターの空白を表示するには、[ 空白の切り替え]を有効にします。
@@ -240,14 +282,16 @@ editorIndentGuide.activeBackground：アクティブなエディターのイン�
 エディタールーラーを表示するには、場所を定義します。 "editor.rulers"
 
 editorRuler.foreground：エディター定規の色。
+```
+
 CodeLens：
 
-コードレンズ
+# コードレンズ
 
 editorCodeLens.foreground：エディターCodeLensの前景色。
 ブラケット一致：
 
-ブラケット色
+# ブラケット色
 
 editorBracketMatch.background：一致する括弧の背景色。
 editorBracketMatch.border：一致するブラケットボックスの色。
@@ -269,7 +313,7 @@ editorOverviewRuler.warningForeground：警告の概要ルーラーマーカー�
 editorOverviewRuler.infoForeground：情報の概要ルーラーマーカーの色。
 editorOverviewRuler.bracketMatchForeground：一致するブラケットの概要ルーラーマーカーの色。
 
-エラーと警告：
+# エラーと警告：
 
 editorError.foreground：エディター内のエラー波線の前景色。
 editorError.border：エディターのエラーボックスの境界線の色。
@@ -279,7 +323,8 @@ editorInfo.foreground：エディターでの情報の波線の前景色。
 editorInfo.border：エディターの情報ボックスの境界線の色。
 editorHint.foreground：エディターのヒントの前景色。
 editorHint.border：エディターのヒントボックスの境界線の色。
-未使用のソースコード：
+
+# 未使用のソースコード：
 
 editorUnnecessaryCode.border：エディターの不要な（未使用の）ソースコードの境界線の色。
 editorUnnecessaryCode.opacity：エディター内の不必要な（未使用の）ソースコードの不透明度。たとえば、"#000000c0"75％の不透明度でコードをレンダリングします。ハイコントラストのテーマの場合、"editorUnnecessaryCode.border"テーマの色を使用して、不要なコードをフェードアウトする代わりに下線を引きます。
@@ -289,7 +334,8 @@ editorGutter.background：エディターのガターの背景色。ガターに
 editorGutter.modifiedBackground：変更された行のエディターのガターの背景色。
 editorGutter.addedBackground：追加される行のエディターのガターの背景色。
 editorGutter.deletedBackground：削除された行のエディターのガターの背景色。
-差分エディターの色
+
+# 差分エディターの色
 挿入および削除されたテキストの色付けには、両方ではなく背景色または境界色のいずれかを使用します。
 
 diffEditor.insertedTextBackground：挿入されたテキストの背景色。下にある装飾を隠さないように、色は不透明であってはなりません。
@@ -298,7 +344,7 @@ diffEditor.removedTextBackground：削除されたテキストの背景色。下
 diffEditor.removedTextBorder：削除されたテキストのアウトラインカラー。
 diffEditor.border：2つのテキストエディター間の境界線の色。
 
-エディターウィジェットの色
+# エディターウィジェットの色
 Editorウィジェットは、エディターのコンテンツの前に表示されます。例には、検索/置換ダイアログ、提案ウィジェット、およびエディターホバーがあります。
 
 editorWidget.background：検索/置換などのエディターウィジェットの背景色。
@@ -323,7 +369,7 @@ editorMarkerNavigationError.background：エディターマーカーナビゲー
 editorMarkerNavigationWarning.background：エディターマーカーナビゲーションウィジェットの警告色。
 editorMarkerNavigationInfo.background：エディターマーカーナビゲーションウィジェットの情報の色。
 
-ピークビューの色
+# ピークビューの色
 ピークビューは、参照と宣言をエディター内のビューとして表示するために使用されます。
 
 ピークビュー
@@ -343,7 +389,7 @@ peekViewTitle.background：ピークビューのタイトル領域の背景色�
 peekViewTitleDescription.foreground：ピークビューのタイトル情報の色。
 peekViewTitleLabel.foreground：ピークビュータイトルの色。
 
-競合のマージ
+# 競合のマージ
 エディターに特別なdiff範囲が含まれる場合、マージ競合の装飾が表示されます。
 
 範囲をマージ
@@ -359,7 +405,7 @@ editorOverviewRuler.currentContentForeground：インラインマージ競合の
 editorOverviewRuler.incomingContentForeground：インラインマージ競合の着信概要ルーラー前景。
 editorOverviewRuler.commonContentForeground：インラインマージ競合の共通の祖先概要ルーラーの前景。
 
-パネル色
+# パネル色
 パネルはエディター領域の下に表示され、出力や統合ターミナルなどのビューが含まれています。
 
 panel.background：パネルの背景色。
@@ -369,7 +415,7 @@ panelTitle.activeBorder：アクティブなパネルタイトルの境界線の
 panelTitle.activeForeground：アクティブなパネルのタイトル色。
 panelTitle.inactiveForeground：非アクティブなパネルのタイトル色。
 
-ステータスバーの色
+# ステータスバーの色
 ステータスバーは、ワークベンチの下部に表示されます。
 
 statusBar.background：標準ステータスバーの背景色。
@@ -388,14 +434,19 @@ statusBarItem.prominentBackground：ステータスバーの目立つアイテ�
 statusBarItem.prominentHoverBackground：ホバリング時のステータスバーの目立つアイテムの背景色。
 重要なことを示すために、他のステータスバーのエントリよりも目立つアイテムが目立ちます。1つの例は、Toggle Tab Key Moves Focusコマンド変更モードインジケーターです。
 
-タイトルバーの色
+# タイトルバーの色
+
+```
 titleBar.activeBackground：ウィンドウがアクティブなときのタイトルバーの背景。
 titleBar.activeForeground：ウィンドウがアクティブなときのタイトルバーの前景。
 titleBar.inactiveBackground：ウィンドウがアクティブでないときのタイトルバーの背景。
 titleBar.inactiveForeground：ウィンドウがアクティブでないときのタイトルバーの前景。
 titleBar.border：タイトルバーの境界線の色。
+```
 
-メニューバーの色
+# メニューバーの色
+
+```
 menubar.selectionForeground：メニューバーで選択されたメニュー項目の前景色。
 menubar.selectionBackground：メニューバーで選択されたメニュー項目の背景色。
 menubar.selectionBorder：メニューバーで選択したメニュー項目の境界線の色。
@@ -405,6 +456,7 @@ menu.selectionForeground：メニューで選択されたメニュー項目の�
 menu.selectionBackground：メニューで選択されたメニュー項目の背景色。
 menu.selectionBorder：メニューで選択されたメニュー項目の境界線の色。
 menu.separatorBackground：メニュー内のセパレータメニュー項目の色。
+```
 
 通知の色
 注：以下の色は、VS Codeバージョン1.21以降にのみ適用されます。
@@ -415,8 +467,9 @@ menu.separatorBackground：メニュー内のセパレータメニュー項目�
 
 通知センターで開くと、ヘッダー付きのリストに表示されます。
 
-通知センター
+# 通知センター
 
+```
 notificationCenter.border：通知センターの境界線の色。
 notificationCenterHeader.foreground：通知センターのヘッダーの前景色。
 notificationCenterHeader.background：通知センターのヘッダーの背景色。
@@ -438,17 +491,26 @@ notification.infoBackground
 notification.infoForeground
 notification.warningBackground
 notification.warningForeground
+```
 
-拡張機能
+# 拡張機能
+
+```
 extensionButton.prominentForeground：拡張ビューボタンの前景色（たとえば、インストールボタン）。
 extensionButton.prominentBackground：拡張表示ボタンの背景色。
 extensionButton.prominentHoverBackground：拡張表示ボタンの背景ホバーカラー。
+```
 
-クイックピッカー
+# クイックピッカー
+
+```
 pickerGroup.border：境界線をグループ化するためのクイックピッカー（クイックオープン）色。
 pickerGroup.foreground：ラベルをグループ化するためのクイックピッカー（クイックオープン）色。
+```
 
-統合ターミナルの色
+# 統合ターミナルの色
+
+```
 terminal.background：統合ターミナルのビューポートの背景。
 terminal.border：ターミナル内の分割ペインを区切る境界線の色。デフォルトはpanel.borderです。
 terminal.foreground：統合端末のデフォルトの前景色。
@@ -471,20 +533,29 @@ terminal.ansiYellow：端末の「黄色」のANSIカラー。
 terminal.selectionBackground：ターミナルの選択背景色。
 terminalCursor.background：ターミナルカーソルの背景色。ブロックカーソルが重なる文字の色をカスタマイズできます。
 terminalCursor.foreground：ターミナルカーソルの前景色。
+```
 
-デバッグ
+# デバッグ
+
+```
 debugToolBar.background：ツールバーの背景色をデバッグします。
 debugToolBar.border：ツールバーの境界線の色をデバッグします。
 editor.stackFrameHighlightBackground：エディターの一番上のスタックフレームのハイライトの背景色。
 editor.focusedStackFrameHighlightBackground：エディター内のフォーカスされたスタックフレームハイライトの背景色。
+```
 
-ようこそページ
+# ようこそページ
+
+```
 welcomePage.background：ようこそページの背景色。
 welcomePage.buttonBackground：ようこそページのボタンの背景色。
 welcomePage.buttonHoverBackground：[ようこそ]ページのボタンの背景色をホバーします。
 walkThrough.embeddedEditorBackground：インタラクティブプレイグラウンドの埋め込みエディターの背景色。
+```
 
 Gitカラー
+
+```
 gitDecoration.addedResourceForeground：追加されたGitリソースの色。ファイルラベルとSCMビューレットに使用されます。
 gitDecoration.modifiedResourceForeground：変更されたGitリソースの色。ファイルラベルとSCMビューレットに使用されます。
 gitDecoration.deletedResourceForeground：削除されたGitリソースの色。ファイルラベルとSCMビューレットに使用されます。
@@ -510,20 +581,25 @@ settings.textInputBorder：テキスト入力ボックスの境界線。
 settings.numberInputBackground：数値入力ボックスの背景。
 settings.numberInputForeground：数字入力ボックスの前景。
 settings.numberInputBorder：数値入力ボックスの境界線。
+```
 
-パン粉
+# くずリスト
 パンくずリストナビゲーションのテーマの色：
 
+```
 breadcrumb.foreground：パンくずリストのアイテムの色。
 breadcrumb.background：パンくずリストの背景色。
 breadcrumb.focusForeground：フォーカスされたパンくずリストの色。
 breadcrumb.activeSelectionForeground：選択したパンくずリストの色。
 breadcrumbPicker.background：パンくずリストピッカーの背景色。
+```
 
-スニペット
+# スニペット
 スニペットのテーマの色：
 
+```
 editor.snippetTabstopHighlightBackground：スニペットタブストップの背景色を強調表示します。
 editor.snippetTabstopHighlightBorder：スニペットタブストップの境界線の色を強調表示します。
 editor.snippetFinalTabstopHighlightBackground：スニペットの最後のタブストップの背景色を強調表示します。
 editor.snippetFinalTabstopHighlightBorder：スニペットの最後のタブストップの境界線の色を強調表示します。
+```
